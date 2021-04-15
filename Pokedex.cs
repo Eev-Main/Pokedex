@@ -23,5 +23,16 @@ namespace Pokedex
             }
             return null;
         }
+        //public void Consultar(int id)
+        //{
+        //    for (int i = 0; i < listaPokemon.Count; i++)
+        //    {
+        //        if(listaPokemon[i].id == id)
+        //        {
+        //            Console.WriteLine("Resultado encontrado: " +  listaPokemon[i]);
+        //        }
+        //    }
+        //    Console.WriteLine("No se encontro ningun resultado");
+        //}
     }
 }

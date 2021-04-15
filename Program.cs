@@ -7,6 +7,8 @@ namespace Pokedex
     {
         static void Main(string[] args)
         {
+            Pokedex pokedex = new Pokedex();
+            
             Pokedex lista = new Pokedex();
 
             //pokedex 
@@ -32,6 +34,8 @@ namespace Pokedex
             lista.listaPokemon.Add(Leafeon);
             lista.listaPokemon.Add(Glaceon);
             lista.listaPokemon.Add(Sylveon);
+
+            Pokedexreg resultadoConsulta = pokedex.Consultar(25);
 
             //party
 
